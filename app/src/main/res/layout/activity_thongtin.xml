@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/girl"
+    android:orientation="vertical"
+    >
+
+
+    <ImageView
+        android:layout_width="209dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/friendgirl"
+        android:orientation="vertical" />
+
+    <ImageView
+        android:id="@+id/img_addcategory_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_arrow_back_black_24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Thành viên nhóm:"
+        android:textAllCaps="true"
+        android:textColor="#ff0000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="   1. Y Lan:"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="   2. Y Thư"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="   3. Xapsopha"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="   4. Thipphaphone"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Địa chỉ:"
+        android:textAllCaps="true"
+        android:textColor="#ff0000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Trường phân hiệu đại học đà nẵng tại kon tum"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Chân thành cảm ơn Thầy!"
+        android:textColor="#ff0000"
+        android:textSize="17sp" />
+
+
+</LinearLayout>
